@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://hrms-lite-b8lw.onrender.com',
+  baseURL: 'https://hrms-lite-b8lw.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
